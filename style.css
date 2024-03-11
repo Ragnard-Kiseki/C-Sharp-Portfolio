@@ -109,37 +109,3 @@
   text-transform: none;
   text-decoration: none;
 }
-@media(max-width: 1200px) {
-  .lblTitle {
-    top: 32px;
-    left: 0px;
-    right: 0px;
-    width: auto;
-    height: auto;
-    position: absolute;
-    font-size: 32px;
-    align-self: center;
-    margin-top: auto;
-    text-align: justify;
-    font-family: Verdana;
-    margin-left: 100px;
-    padding-top: 0px;
-    margin-right: auto;
-    margin-bottom: auto;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    text-transform: capitalize;
-  }
-  .pnlNav {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media(max-width: 767px) {
-  .pnlNav {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-}
-

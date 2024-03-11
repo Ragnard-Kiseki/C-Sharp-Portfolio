@@ -10,26 +10,3 @@
 .nav1-text3 {
   margin-left: var(--dl-space-space-twounits);
 }
-@media(max-width: 1200px) {
-  .nav1-nav {
-    width: auto;
-    height: 100%;
-  }
-}
-@media(max-width: 767px) {
-  .nav1-text {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .nav1-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .nav1-text2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .nav1-text3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-}

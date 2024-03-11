@@ -1,0 +1,27 @@
+.app-component-container {
+  flex: 0;
+  width: 25%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-component-text04 {
+  color: #3bdfe5;
+}
+.app-component-text07 {
+  max-width: 50%;
+  text-align: justify;
+}
+.app-component-button {
+  color: rgb(0, 42, 60);
+  width: 175px;
+  height: 40px;
+  box-shadow: rgb(0, 237, 253) 0px 0px 15px 1px;
+  border-width: 0px;
+  border-radius: 20px;
+  background-color: rgb(0, 237, 253);
+}
