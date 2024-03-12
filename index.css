@@ -39,16 +39,17 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.index-text03 {
+.index-navlink2 {
   margin-left: var(--dl-space-space-twounits);
   animation-name: backInDown;
   animation-delay: 900ms;
+  text-decoration: none;
   animation-duration: 1s;
   animation-direction: normal;
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.index-text04 {
+.index-text03 {
   margin-left: var(--dl-space-space-twounits);
   animation-name: backInDown;
   animation-delay: 1200ms;
@@ -97,7 +98,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.index-text05 {
+.index-text04 {
   font-size: 32px;
   animation-name: fadeInTopLeft;
   animation-delay: 1500ms;
@@ -106,7 +107,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.index-text06 {
+.index-text05 {
   font-size: 42px;
   font-family: "Concert One";
   animation-name: fadeInTopRight;
@@ -116,7 +117,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.index-text09 {
+.index-text08 {
   color: rgb(59, 223, 229);
   font-size: 32px;
   animation-name: fadeInTopLeft;
@@ -126,7 +127,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.index-text12 {
+.index-text11 {
   max-width: auto;
   text-align: justify;
   animation-name: fadeInTopRight;
@@ -136,7 +137,16 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.index-text15 {
+.index-button {
+  position: relative;
+  align-self: center;
+  text-decoration: none;
+}
+.index-text14 {
+  top: 11px;
+  left: 43px;
+  position: absolute;
+  text-align: center;
   animation-name: fadeInTopLeft;
   animation-delay: 2700ms;
   animation-duration: 1s;
