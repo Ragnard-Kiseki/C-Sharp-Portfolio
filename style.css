@@ -35,13 +35,24 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
-  color: var(--dl-color-gray-black);
+  color: rgb(0, 42, 60);
+  width: 175px;
+  height: 40px;
   display: inline-block;
   padding: 0.5rem 1rem;
+  align-self: center;
+  box-shadow: rgb(0, 237, 253) 0px 0px 15px 1px;
+  margin-top: 5%;
   border-color: var(--dl-color-gray-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  border-radius: 20px;
+  animation-name: fadeInTopLeft;
+  animation-delay: 2700ms;
+  background-color: rgb(0, 237, 253);
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .input {
   color: var(--dl-color-gray-black);
@@ -79,17 +90,28 @@
 .lblTitle {
   width: auto;
   height: auto;
-  font-size: 32px;
+  font-size: 42px;
   align-self: center;
   text-align: justify;
-  font-family: "Verdana";
+  margin-left: 15%;
+  animation-name: backInDown;
   text-transform: capitalize;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .pnlNav {
+  top: 0px;
   flex: 0 0 auto;
+  right: 15%;
+  bottom: 0px;
+  margin: auto;
   display: flex;
-  position: relative;
+  position: absolute;
   font-size: x-large;
+  align-self: center;
   align-items: center;
   flex-direction: row;
 }
@@ -109,3 +131,4 @@
   text-transform: none;
   text-decoration: none;
 }
+

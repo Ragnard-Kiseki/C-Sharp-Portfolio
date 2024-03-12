@@ -5,7 +5,7 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
-  font-family: ""Concert One"";
+  font-family: "Titillium Web";
   flex-direction: column;
   justify-content: flex-start;
   background-color: #20242d;
@@ -18,31 +18,44 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.index-text {
-  align-self: center;
-  margin-left: 15%;
-}
-.index-nav {
-  top: 0px;
-  right: 15%;
-  bottom: 0px;
-  margin: auto;
-  position: absolute;
-  align-self: center;
-}
-.index-text03 {
+.index-navlink {
   color: #3bdfe5;
   align-self: center;
-}
-.index-navlink {
-  margin-left: var(--dl-space-space-twounits);
+  animation-name: backInDown;
+  animation-delay: 300ms;
   text-decoration: none;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.index-navlink1 {
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: backInDown;
+  animation-delay: 600ms;
+  text-decoration: none;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.index-text03 {
+  margin-left: var(--dl-space-space-twounits);
+  animation-name: backInDown;
+  animation-delay: 900ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .index-text04 {
   margin-left: var(--dl-space-space-twounits);
-}
-.index-text05 {
-  margin-left: var(--dl-space-space-twounits);
+  animation-name: backInDown;
+  animation-delay: 1200ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
 .index-content {
   flex: 1;
@@ -84,29 +97,50 @@
   flex-direction: column;
   justify-content: center;
 }
-.index-text06 {
+.index-text05 {
   font-size: 32px;
+  animation-name: fadeInTopLeft;
+  animation-delay: 1500ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
-.index-text07 {
+.index-text06 {
   font-size: 42px;
   font-family: "Concert One";
+  animation-name: fadeInTopRight;
+  animation-delay: 1800ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
-.index-text10 {
+.index-text09 {
   color: rgb(59, 223, 229);
   font-size: 32px;
+  animation-name: fadeInTopLeft;
+  animation-delay: 2100ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
-.index-text13 {
+.index-text12 {
   max-width: auto;
   text-align: justify;
+  animation-name: fadeInTopRight;
+  animation-delay: 2400ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
-.index-button {
-  color: rgb(0, 42, 60);
-  width: 175px;
-  height: 40px;
-  align-self: center;
-  box-shadow: rgb(0, 237, 253) 0px 0px 15px 1px;
-  margin-top: 5%;
-  border-width: 0px;
-  border-radius: 20px;
-  background-color: rgb(0, 237, 253);
+.index-text15 {
+  animation-name: fadeInTopLeft;
+  animation-delay: 2700ms;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
 }
